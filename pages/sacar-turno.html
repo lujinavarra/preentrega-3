@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preentrega3</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="profesionales" id="contenedorProfesionales">
+        <div>
+            <p>Complete el formulario correspondiente</p>
+            <form id="formulario" class="formulario">
+                <input type="text" name="nombrePaciente" placeholder="Ingrese su nombre" id="nombrePaciente">
+                <input type="text" name="dni" placeholder="Ingrese su dni" id="dni">
+                <input type="text" name="telefono" placeholder="Ingrese su número de teléfono" id="telefono">
+                <select  name="staffProfesionales" id="staffProfesionales"></select>
+                <input type="submit" placeholder="Enviar Solicitud" id="enviarSolicitud">
+            </form>
+        </div>
+    </div>
+    <div id="mostrarInformacionTurno"></div>
+    <script src="../main.js"></script>
+    <script src="../formulario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
